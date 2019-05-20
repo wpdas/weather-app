@@ -12,4 +12,4 @@ The technology chosen to develop the interface of this application was React and
 
 Open the terminal in the project's root directory and type `yarn` to install the dependencies. If you do not have yarn installed, you can run the `npm i -g yarn` command on the terminal. After this step, just run the command `yarn run app`. This command will simultaneously execute both the server and the web application.
 
-The app will be runnig on port 3000. Example: http://localhost:3000 or http://10.0.0.2:5000
+The app will be runnig on port 3000. Example: http://localhost:3000 or http://10.0.0.2:3000
