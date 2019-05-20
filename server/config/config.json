@@ -1,0 +1,7 @@
+{
+  "CACHE_TIME": 60000,
+  "COUNTRIES_URI": "https://restcountries.eu/rest/v2/all",
+  "STATES_URI": "http://services.groupkt.com/state/get/{countryCode}/all",
+  "OPEN_WEATHER_MAP_URI": "https://api.openweathermap.org/data/2.5/weather?q={city},{countryCode}&units=metric&appid=58ff0718a86aa77fc9f754c6fb8a34d6",
+  "PEXELS_API_KEY": "563492ad6f91700001000001d615df62051644ad8172123131316c48"
+}

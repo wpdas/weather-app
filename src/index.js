@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { rehoc, setStates } from 'rehoc';
+import WeatherApp from './WeatherApp';
 import * as serviceWorker from './serviceWorker';
+import weatherState from './states/weather/state';
+
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'shards-ui/dist/css/shards.min.css';
+
+// Rehoc state management
+setStates({
+  weatherState
+});
+
+const App = rehoc(WeatherApp);
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
