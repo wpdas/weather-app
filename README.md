@@ -1,6 +1,6 @@
-# Weather App Task Sonia
+# Weather App
 
-This is a project that is part of Sonia's internal recruitment process.
+This is a project developed using React, Rehoc, NodeJS and Express. Some APIs were used as well.
 
 Screenshoot of the app working:
 
