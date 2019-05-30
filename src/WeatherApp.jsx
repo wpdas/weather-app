@@ -145,11 +145,11 @@ class WeatherApp extends React.PureComponent {
     ) {
       if (isRetina() || isHighDensity()) {
         backgroundStyle = {
-          backgroundImage: `url('${backgroundImages.large}')`
+          backgroundImage: `url('${backgroundImages.large2x}')`
         };
       } else {
         backgroundStyle = {
-          backgroundImage: `url('${backgroundImages.large2x}')`
+          backgroundImage: `url('${backgroundImages.large}')`
         };
       }
     }
