@@ -35,3 +35,5 @@ app.use('/api', routes);
 app.listen(port, () => {
   log(`Server running on port ${port}`);
 });
+
+module.exports = app;

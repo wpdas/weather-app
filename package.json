@@ -24,13 +24,19 @@
     "shards-react": "^1.0.3"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
     "concurrently": "^4.1.0",
-    "nodemon": "^1.19.0"
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test_server": "mocha server/test --recursive --exit",
     "eject": "react-scripts eject",
     "server_nodemon": "nodemon server",
     "app": "concurrently --kill-others-on-fail \"yarn run server_nodemon\" \"yarn start\""
